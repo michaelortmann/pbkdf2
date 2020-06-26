@@ -1,0 +1,23 @@
+Description:
+
+  Backward compatible pbkdf2_hmac() in python.
+
+  Compatible with python 2 and 3.
+
+  This was coded in 2014 when hashlib.pbkdf2_hmac() didn't exist yet.
+
+  After hashlib.pbkdf2_hmac() was new in Python version 2.7.8 and 3.4 the API of
+  pbkdf2_hmac() was made equal to hashlib.pbkdf2_hmac(), except the type of the
+  first parameter.
+
+License:
+
+  MIT License
+  Copyright (c) 2014 Michael Ortmann
+
+Website:
+
+  https://gitlab.com/mortmann/pbkdf2
+
+Enjoy,
+Michael
